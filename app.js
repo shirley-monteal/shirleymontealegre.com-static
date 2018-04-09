@@ -2,7 +2,7 @@ var express = require('express');
 var bodyParser = require('body-parser');
 var app = express();
 app.use('/', express.static(__dirname + '/static_html'));
-app.listen(8080, '172.31.22.173'); // ip address is internal aws
+app.listen(8080, '172.31.34.203'); // ip address is internal aws
 
 //Note that in version 4 of express, express.bodyParser() was
 //deprecated in favor of a separate 'body-parser' module.
